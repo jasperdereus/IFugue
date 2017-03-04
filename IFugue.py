@@ -6,13 +6,11 @@ Created on Sun Feb 26 15:08:27 2017
 
 
 from music21 import *
-#configure.run()
 
+#load music
 b = corpus.parse('bach/bwv66.6')
-b.show() 
 
-
+#show sheet music and play
 b.show('midi')
 b.show()
-#b.show()
-#This is a test branch
+
